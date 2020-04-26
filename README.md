@@ -51,6 +51,12 @@ The idea is to start with random θ0 and θ1 values and then iteratively updatin
 While **h(x)** is our `Y_predict` 
 **alpha** is the learning rate 
 
+### `Regression Functions`:
+- **Hypotheses Function :**   `hyp = transpose(theta) x X_bar` 
+- **Cost function :** `cost = 1/2m x  square(sum(hyp - Y))`
+- **Gradient decent equation :** `theta_new = theta_cuerent - paritial_D(cost)`
+                     than >>>>>`theta_new = theta_curent - 1/m * sum((hyp - Y)*X_bar)`                   
+
 >**Note :** the values of thetas after convergence are in the normalised space .
 #### Lets get the real coeffision and intercept `(thetas)`
 To do this wi will need to invert the normalisation equiation , the figure bellow shows the theorical dimenstration 
