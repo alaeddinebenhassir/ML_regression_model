@@ -56,3 +56,6 @@ While **h(x)** is our `Y_predict`
 To do this wi will need to invert the normalisation equiation , the figure bellow shows the theorical dimenstration 
 
 <img src="img/unNormalisation.png"/>
+
+
+### Working with  multidimensional data set : 
