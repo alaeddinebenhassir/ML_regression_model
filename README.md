@@ -2,7 +2,7 @@
 This is a model that we are building on top of NUMPY , PANDAS and  MATPLOTlib 
 
 
- # The Math behind solving a regression problems 
+ # The Math behind solving a regression problem
  lets take a look in the theory and the defrent equision that will help as solve a regression problem in multidimentional space
 ### **The first thing to do is to get our data :**
 * Using pandas funtion ``read_csv('PATH_TO_DATA_SET')`` , this will 
